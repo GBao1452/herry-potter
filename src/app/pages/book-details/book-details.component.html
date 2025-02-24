@@ -1,0 +1,23 @@
+<div id="container">
+<div id="img">
+  <img [src]="currentBook?.cover" alt="{{currentBook?.title}}">
+  </div>
+  <div id="right">
+  <div id="title">
+  <p>{{currentBook?.title}}</p>
+  </div>
+   <div id="original">
+     <p><strong>Original Title:</strong> {{currentBook?.originalTitle}}</p>
+   </div>
+  <div id="date">
+  <p><strong>Release Date:</strong> {{currentBook?.releaseDate}}</p>
+  </div>
+  <div id="pages">
+  <p><strong>Pages:</strong> {{currentBook?.pages}}</p>
+  </div>
+  <div id="description">
+  <p id="des">Description:</p><p id="sub">{{currentBook?.description}}</p>
+  </div>
+</div>
+</div>
+

@@ -1,0 +1,18 @@
+<div class="navbar">
+  <div class="navbar-brand">
+    <p [routerLink]="['/home']" id="name">HogwartsStore</p>
+  </div>
+  <div id="search">
+    <mat-form-field class="example-full-width">
+      <mat-label>Search</mat-label>
+      <input matInput placeholder="Ex. Harry Potter" value="">
+    </mat-form-field>
+  </div>
+  <div class="navbar-menu">
+    <p [routerLink]="['/home']" class="navbar-item">Home</p>
+    <p class="navbar-item">Products</p>
+    <p class="navbar-item">About</p>
+    <p class="navbar-item">Contact</p>
+  </div>
+</div>
+

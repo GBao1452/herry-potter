@@ -1,0 +1,9 @@
+<div class="card">
+  <img [src]="book.cover" alt="{{book.title}}">
+  <div class="card-content">
+    <p>{{book.title}}</p>
+  </div>
+  <div id="btn">
+    <button class="btn" [routerLink]="['/book-details',book.number]"  mat-flat-button>XEM CHI TIẾT</button>
+  </div>
+</div>

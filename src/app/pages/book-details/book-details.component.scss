@@ -1,0 +1,32 @@
+#container{
+  display: flex;
+  gap: 30px;
+  margin: 50px 0 0 200px;
+}
+#title{
+  font-size: 30px;
+  font-weight: 600;
+  margin: 0;
+  cursor: pointer;
+}
+#right{
+  width: 600px;
+}
+#description{
+  display: flex;
+  gap: 10px;
+  #des{
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+  }
+  #sub{
+    text-align: justify;
+  }
+}
+img{
+  width: 250px;
+  height: 390px;
+  object-fit: cover;
+  border-radius: 8px;
+}

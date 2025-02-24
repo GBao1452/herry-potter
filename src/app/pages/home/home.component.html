@@ -1,0 +1,7 @@
+
+<div class="card-container">
+  @for (book of book$ | async; track $index)
+  {
+    <app-card [book]="book"></app-card>
+  }
+</div>
